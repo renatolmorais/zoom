@@ -1,0 +1,8 @@
+{{extend 'zoom_layout.html'}}
+<div class="jumbotron">
+    <h1>{{=h1}}</h1>
+    <h3>{{=h3}}</h3>
+    <p>{{=p}}</p>
+</div>
+{{=BEAUTIFY(response._vars)}}
+<a href="{{=URL('index')}}">Clique aqui para voltar</a>
